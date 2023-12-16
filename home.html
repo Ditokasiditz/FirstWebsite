@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Scene</title>
+    <style>
+        /* CSS styles for the movie scene homepage */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000;
+            color: #e6dcdd;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .movie-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .movie-card__item {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+        
+        .movie-card__item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .movie-card__item h2 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        
+        .movie-card__item p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Movie Scene</h1>
+        <p>Explore a wide range of movies you intered in.</p>
+        
+        <div class="movie-card">
+            <div class="movie-card__item">
+                <img src="picture/arreietty.jpg" alt="Movie 1">
+                <h2>Arrietty</h2>
+                <p>Description of Movie 1</p>
+            </div>
+            
+            <div class="movie-card__item">
+                <img src="picture/totoro.jpg" alt="Movie 2">
+                <h2>Totoro</h2>
+                <p>Description of Movie 2</p>
+            </div>
+            
+            <div class="movie-card__item">
+                <img src="picture/spiritAway.jpg" alt="Movie 3">
+                <h2>Spirited Away</h2>
+                <p>Description of Movie 3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
